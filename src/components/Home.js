@@ -2,19 +2,16 @@ import '../styles/Home.scss';
 const Home = () => {
   return (
     <div className="home">
-      <div className="home__menu">
+      <nav className="home__menu">
         <i className="fa-solid fa-bars fa-2x"></i>
-      </div>
+      </nav>
       <p className="home__name">Marta Rodríguez Onís</p>
       <p className="home__job">Jr Front-End developer</p>
-      <nav className="home__nav>">
-        <div>
-          <i className="fa-solid fa-caret-right"></i>
-        </div>
-        <div>
-          <i className="fa-solid fa-caret-left"></i>
-        </div>
-      </nav>
+
+      <div className="home__containerArrows">
+        <i className="fa-solid fa-3x fa-caret-right"></i>
+        <i className="fa-solid fa-3x fa-caret-left"></i>
+      </div>
     </div>
   );
 };

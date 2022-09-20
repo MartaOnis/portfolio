@@ -19,8 +19,8 @@
     border-radius: 40%;
     padding: 20px;
     position: absolute;
-    right: 20px;
-    top: 20px;
+    right: 30px;
+    top: 30px;
   }
   &__name {
     color: $color--white;
@@ -29,7 +29,33 @@
     text-align: center;
     width: 80%;
   }
+  &__job {
+    margin-top: 20px;
+    color: $color--light-grey;
+    font-family: $font-main;
+    font-size: 22px;
+    text-align: center;
+  }
+  &__containerArrows {
+    position: absolute;
+    background-color: black;
+    width: 60px;
+    height: 150px;
+    bottom: 30px;
+    right: 30px;
+    border: 2px solid $color--blue;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   //   @media all and (min-width: 768px) {
   //     display: none;
   //   }
+}
+
+.fa-solid {
+  color: $color--white;
+  padding: 15px;
 }
