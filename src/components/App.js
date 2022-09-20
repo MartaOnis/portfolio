@@ -1,11 +1,11 @@
-import { useState, useEffect } from 'react';
-import '../styles/App.scss';
-import { Link, Route, Routes } from 'react-router-dom';
+// import { useState, useEffect } from 'react';
+// import { Link, Route, Routes } from 'react-router-dom';
+import Home from './Home';
 
 function App() {
   return (
     <div>
-      <h1>Hola mundo</h1>
+      <Home />
     </div>
   );
 }

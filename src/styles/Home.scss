@@ -1,0 +1,35 @@
+@import './App';
+.home {
+  width: 100vw;
+  height: 100vh;
+  background-color: $bg-color--grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__menu {
+    color: $color--white;
+    background-color: $color--blue;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+    padding: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  &__name {
+    color: $color--white;
+    font-family: $font-main;
+    font-size: 34px;
+    text-align: center;
+    width: 80%;
+  }
+  //   @media all and (min-width: 768px) {
+  //     display: none;
+  //   }
+}

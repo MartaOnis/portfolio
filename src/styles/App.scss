@@ -1,5 +1,14 @@
-// @import 'core/reset';
-// @import 'core/variables';
-// @import 'layout/header';
-// @import 'layout/footer';
-// @import 'layout/main';
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+//  COLORES
+
+$bg-color--grey: #222222;
+$color--blue: #26859d;
+$color--white: #ffffff;
+
+// FUENTES
+$font-main: 'Roboto', sans-serif;
