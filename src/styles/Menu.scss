@@ -1,0 +1,57 @@
+@import './App';
+.menu {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $color--dark-grey;
+  &__img {
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 45%;
+    transition: transform 0.2s;
+  }
+  &__img:hover {
+    transform: scale(1.1);
+  }
+  &__name {
+    padding-top: 20px;
+    color: $color--white;
+    font-family: $font-main;
+    font-size: 34px;
+    text-align: center;
+    width: 80%;
+  }
+  &__job {
+    margin-top: 20px;
+    color: $color--light-grey;
+    font-family: $font-main;
+    font-size: 22px;
+    text-align: center;
+  }
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__li {
+    padding: 20px;
+    list-style: none;
+    color: $color--light-grey;
+  }
+}
+.SectionDetail-link {
+  text-decoration: none;
+  color: $color--light-grey;
+}
+.fa-solid {
+  color: $color--white;
+  padding: 15px;
+}
+
+.hidden {
+  transform: translateX(200px);
+}

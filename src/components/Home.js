@@ -1,9 +1,13 @@
 import '../styles/Home.scss';
-const Home = () => {
+const Home = (props) => {
   return (
-    <div className="home">
-      <nav className="home__menu">
-        <i className="fa-solid fa-bars fa-2x"></i>
+    <div className={`home ${props.menuHidden.classLanding}`}>
+      <nav className="iconMenu">
+        <i
+          className={`fa-solid fa-bars fa-2x ${props.menuHidden.classLanding}`}
+          onClick={props.handleClickMenu}
+          id="menuBars"
+        ></i>
       </nav>
       <p className="home__name">Marta Rodríguez Onís</p>
       <p className="home__job">Jr Front-End developer</p>

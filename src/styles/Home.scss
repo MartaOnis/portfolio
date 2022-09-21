@@ -7,21 +7,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  &__menu {
-    color: $color--white;
-    background-color: $color--blue;
-    width: 55px;
-    height: 55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 40%;
-    padding: 20px;
-    position: absolute;
-    right: 30px;
-    top: 30px;
-  }
   &__name {
     color: $color--white;
     font-family: $font-main;
@@ -54,8 +39,25 @@
   //     display: none;
   //   }
 }
-
+.iconMenu {
+  color: $color--white;
+  background-color: $color--blue;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40%;
+  padding: 20px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
 .fa-solid {
   color: $color--white;
   padding: 15px;
+}
+
+.hidden {
+  display: none;
 }
