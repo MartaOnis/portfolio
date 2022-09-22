@@ -6,7 +6,7 @@ const Menu = (props) => {
     <div className={`menu ${props.menuHidden.classMenu}`}>
       <nav className="iconMenu">
         <i
-          className={`fa-solid fa-xmark fa-3x ${props.menuHidden.classMenu}`}
+          className={`fa-solid fa-xmark fa-3x ${props.menuHidden.classIcon}`}
           onClick={props.handleClickMenu}
           id="menuClose"
         ></i>
@@ -22,7 +22,9 @@ const Menu = (props) => {
       <nav>
         <ul className="menu__nav">
           <li className="menu__li" onClick={props.handleClickMenu}>
-            Home
+            <Link to="/" className="SectionDetail-link">
+              Home
+            </Link>
           </li>
           <li className="menu__li">
             <Link to="/aboutme" className="SectionDetail-link">
