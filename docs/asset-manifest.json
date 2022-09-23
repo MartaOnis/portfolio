@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.37f84b7a.css",
-    "main.js": "./static/js/main.986b3389.js",
+    "main.css": "./static/css/main.83b7370f.css",
+    "main.js": "./static/js/main.33222489.js",
     "static/media/FotoMartaColor.jpg": "./static/media/FotoMartaColor.7efaa8bea697fffb4490.jpg",
     "index.html": "./index.html",
-    "main.37f84b7a.css.map": "./static/css/main.37f84b7a.css.map",
-    "main.986b3389.js.map": "./static/js/main.986b3389.js.map"
+    "main.83b7370f.css.map": "./static/css/main.83b7370f.css.map",
+    "main.33222489.js.map": "./static/js/main.33222489.js.map"
   },
   "entrypoints": [
-    "static/css/main.37f84b7a.css",
-    "static/js/main.986b3389.js"
+    "static/css/main.83b7370f.css",
+    "static/js/main.33222489.js"
   ]
 }
