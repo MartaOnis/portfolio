@@ -6,7 +6,7 @@ const Menu = (props) => {
     <div className={`menu ${props.menuHidden.classMenu}`}>
       <nav className="iconMenu">
         <i
-          className={`fa-solid fa-xmark fa-3x ${props.menuHidden.classIcon}`}
+          className="fa-solid fa-xmark fa-3x"
           onClick={props.handleClickMenu}
           id="menuClose"
         ></i>

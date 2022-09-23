@@ -15,14 +15,10 @@ function App() {
     if (ev.currentTarget.id === 'menuBars') {
       setMenuHidden({
         classMenu: 'open',
-        classIconBars: 'hidden',
-        classIconX: '',
       });
     } else {
       setMenuHidden({
         classMenu: '',
-        classIconBars: '',
-        classIconX: 'hidden',
       });
     }
   };

@@ -13,9 +13,10 @@
   transition: transform 0.7s ease;
   transform: translateX(100%);
   background-color: $color--dark-grey;
+  z-index: 2;
 
   &__img {
-    width: 250px;
+    width: 220px;
     object-fit: cover;
     object-position: center;
     border-radius: 45%;
@@ -34,12 +35,13 @@
   }
   &__job {
     margin-top: 20px;
-    color: $color--light-grey;
+    color: rgb(72, 71, 71);
     font-family: $font-main;
     font-size: 22px;
     text-align: center;
   }
   &__nav {
+    margin-top: -40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,8 +64,23 @@
 
 .hidden {
   display: none;
+  z-index: 2;
 }
 .menu.open {
   transform: translateX(0%);
-  z-index: 3;
+  z-index: 2;
+}
+.iconMenu {
+  color: $color--white;
+  background-color: $color--blue;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40%;
+  padding: 20px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
 }

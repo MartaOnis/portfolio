@@ -4,7 +4,7 @@ const Home = (props) => {
     <div className="home">
       <nav className="iconMenu">
         <i
-          className={`fa-solid fa-bars fa-2x ${props.menuHidden.classIcon}`}
+          className="fa-solid fa-bars fa-2x"
           onClick={props.handleClickMenu}
           id="menuBars"
         ></i>
