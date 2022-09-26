@@ -8,8 +8,6 @@ import Projects from './Projects';
 function App() {
   const [menuHidden, setMenuHidden] = useState({
     classMenu: '',
-    classIconBars: '',
-    classIconX: 'hidden',
   });
 
   const handleClickMenu = (ev) => {
