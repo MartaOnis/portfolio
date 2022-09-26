@@ -1,0 +1,38 @@
+@import './App';
+.detailProject {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+
+  &__img {
+    margin-top: 35px;
+    width: 280px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+  }
+  &__des {
+    width: 280px;
+    text-align: center;
+    font-family: $font-main;
+    font-size: 22px;
+    color: $color--white;
+    margin-top: 15px;
+  }
+}
+.detailLink {
+  text-decoration: none;
+}
+.des2 {
+  color: $color--blue;
+}
+.detailProject__des:hover {
+  .des2 {
+    color: $color--dark-grey;
+  }
+  color: $color--dark-grey;
+}

@@ -55,7 +55,10 @@
 }
 .SectionDetail-link {
   text-decoration: none;
-  color: $color--light-grey;
+  color: $color--white;
+}
+.SectionDetail-link:hover {
+  color: $color--blue;
 }
 .fa-solid {
   color: $color--white;

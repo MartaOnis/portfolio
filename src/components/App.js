@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import '../styles/App.scss';
 import Home from './Home';
 import Menu from './Menu';
+import Projects from './Projects';
 
 function App() {
   const [menuHidden, setMenuHidden] = useState({
@@ -29,7 +30,21 @@ function App() {
         <Route
           path="/"
           element={
-            <Home menuHidden={menuHidden} handleClickMenu={handleClickMenu} />
+            <>
+              <Home menuHidden={menuHidden} handleClickMenu={handleClickMenu} />
+            </>
+          }
+        />
+
+        <Route
+          path="/projects"
+          element={
+            <>
+              <Projects
+                menuHidden={menuHidden}
+                handleClickMenu={handleClickMenu}
+              />
+            </>
           }
         />
       </Routes>

@@ -26,22 +26,22 @@ const Menu = (props) => {
               Home
             </Link>
           </li>
-          <li className="menu__li">
+          <li className="menu__li" onClick={props.handleClickMenu}>
             <Link to="/aboutme" className="SectionDetail-link">
               About me
             </Link>
           </li>
-          <li className="menu__li">
+          <li className="menu__li" onClick={props.handleClickMenu}>
             <Link to="/resume" className="SectionDetail-link">
               Resume
             </Link>
           </li>
-          <li className="menu__li">
-            <Link to="/portfolio" className="SectionDetail-link">
-              Portfolio
+          <li className="menu__li" onClick={props.handleClickMenu}>
+            <Link to="/projects" className="SectionDetail-link" id="projects">
+              Projects
             </Link>
           </li>
-          <li className="menu__li">
+          <li className="menu__li" onClick={props.handleClickMenu}>
             <Link to="/contact" className="SectionDetail-link">
               Contact
             </Link>
