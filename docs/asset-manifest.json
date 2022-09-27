@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "./static/css/main.71bc72ec.css",
-    "main.js": "./static/js/main.6c0b7e3b.js",
-    "static/media/anime.png": "./static/media/anime.8932db24995585aabcf4.png",
-    "static/media/adavengers.png": "./static/media/adavengers.f786eb10d3d7343dc4d6.png",
-    "static/media/cards.png": "./static/media/cards.2910b6a2da97d020186f.png",
-    "static/media/searcher.png": "./static/media/searcher.1fbff3ba80006de34245.png",
-    "static/media/friends.png": "./static/media/friends.566f8f05948dcb3be0b7.png",
-    "static/media/FotoMartaColor.jpg": "./static/media/FotoMartaColor.7efaa8bea697fffb4490.jpg",
-    "static/media/number.png": "./static/media/number.f869b8639de2482076d5.png",
-    "static/media/github.png": "./static/media/github.79380dbf981f4fc2200e.png",
+    "main.css": "./static/css/main.0b9b96e5.css",
+    "main.js": "./static/js/main.011a49f4.js",
+    "static/media/FotoMartaColor.jpg": "./static/media/FotoMartaColor.5859559fc982775e92db.jpg",
+    "static/media/anime.jpg": "./static/media/anime.6e5557fcbf7928410a47.jpg",
+    "static/media/adavengers.jpg": "./static/media/adavengers.0d081b307a4e152065c5.jpg",
+    "static/media/searcher.jpg": "./static/media/searcher.847957b2a28cbe301289.jpg",
+    "static/media/friends.jpg": "./static/media/friends.b7c8e12b1e17fc19565b.jpg",
+    "static/media/cards.jpg": "./static/media/cards.88cf1092df69a80ef17c.jpg",
+    "static/media/Okine.ttf": "./static/media/Okine.fa13abfba0f98e77bb57.ttf",
+    "static/media/number.jpg": "./static/media/number.5d2730ea368884e6f132.jpg",
     "index.html": "./index.html",
-    "main.71bc72ec.css.map": "./static/css/main.71bc72ec.css.map",
-    "main.6c0b7e3b.js.map": "./static/js/main.6c0b7e3b.js.map"
+    "main.0b9b96e5.css.map": "./static/css/main.0b9b96e5.css.map",
+    "main.011a49f4.js.map": "./static/js/main.011a49f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.71bc72ec.css",
-    "static/js/main.6c0b7e3b.js"
+    "static/css/main.0b9b96e5.css",
+    "static/js/main.011a49f4.js"
   ]
 }
