@@ -5,6 +5,7 @@ import About from './About';
 import Home from './Home';
 import Menu from './Menu';
 import Projects from './Projects';
+import Contact from './Contact';
 
 function App() {
   const [menuHidden, setMenuHidden] = useState({
@@ -50,6 +51,17 @@ function App() {
           element={
             <>
               <About
+                menuHidden={menuHidden}
+                handleClickMenu={handleClickMenu}
+              />
+            </>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <>
+              <Contact
                 menuHidden={menuHidden}
                 handleClickMenu={handleClickMenu}
               />

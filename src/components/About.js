@@ -1,4 +1,5 @@
 import '../styles/About.scss';
+
 const About = (props) => {
   return (
     <div className="about">
@@ -23,21 +24,22 @@ const About = (props) => {
         <h3 className="about__titleEdu">Education</h3>
         <article className="about__education">
           <h3 className="about__h3">ADALAB Web programming bootcamp</h3>
-          <p className="about__paragraph">
+          <div className="about__paragraph">
             Layout: HTML5, CSS3, SASS, Flexbox, Grid, responsive design.
-            <hr />
+            <hr className="linehr" />
             JavaScript (ES6) and web services (APIs).
-            <hr /> Version control with Git.
-            <hr />
+            <hr className="linehr" />
+            Version control with Git.
+            <hr className="linehr" />
             Creation of simple SPAs with React.
-            <hr />
-            Basic knowledge of APIs and back programming: applications with Node
-            JS, Express and SQL.
-            <hr /> Slack, GitHub, VS Code, Gulp, Terminal, Zeplin.
-            <hr />
+            <hr className="linehr" /> Basic knowledge of APIs and back
+            programming: applications with Node JS, Express and SQL.
+            <hr className="linehr" />
+            Slack, GitHub, VS Code, Gulp, Terminal, Zeplin.
+            <hr className="linehr" />
             Experience in the development of projects using the Agile philosophy
             and Scrum framework.
-          </p>
+          </div>
           <h3 className="about__h3">CAMILO JOSÉ CELA UNIVERSITY</h3>
           <p className="about__paragraph">
             University Expert in Quality Control.
