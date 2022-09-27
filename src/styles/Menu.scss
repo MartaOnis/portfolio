@@ -16,7 +16,8 @@
   z-index: 2;
 
   &__img {
-    width: 220px;
+    margin-top: 40px;
+    width: 160px;
     object-fit: cover;
     object-position: center;
     border-radius: 45%;
@@ -26,29 +27,24 @@
     transform: scale(1.1);
   }
   &__name {
-    padding-top: 20px;
-    color: $color--white;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    color: $color--light-grey;
     font-family: $font-main;
-    font-size: 34px;
+    font-size: 30px;
     text-align: center;
     width: 80%;
   }
-  &__job {
-    margin-top: 20px;
-    color: rgb(72, 71, 71);
-    font-family: $font-main;
-    font-size: 22px;
-    text-align: center;
-  }
   &__nav {
-    margin-top: -40px;
+    font-family: $font-main;
+    font-size: 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   &__li {
-    padding: 20px;
+    padding: 30px;
     list-style: none;
     color: $color--light-grey;
   }

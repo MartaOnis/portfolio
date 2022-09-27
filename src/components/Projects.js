@@ -1,12 +1,12 @@
 // import { Link } from 'react-router-dom';
 import '../styles/Projects.scss';
 import DetailProject from './DetailProject';
-import searcher from '../images/searcher.png';
-import adavengers from '../images/adavengers.png';
-import cards from '../images/cards.png';
-import anime from '../images/anime.png';
-import number from '../images/number.png';
-import friends from '../images/friends.png';
+import searcher from '../images/searcher.jpg';
+import adavengers from '../images/adavengers.jpg';
+import cards from '../images/cards.jpg';
+import anime from '../images/anime.jpg';
+import number from '../images/number.jpg';
+import friends from '../images/friends.jpg';
 import github from '../images/github.png';
 
 const Projects = (props) => {

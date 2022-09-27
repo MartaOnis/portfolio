@@ -18,7 +18,6 @@ const Menu = (props) => {
         title="Foto de Marta Rodríguez Onís"
       ></img>
       <p className="menu__name">Marta Rodríguez Onís</p>
-      <p className="menu__job">Jr Front-End developer</p>
       <nav>
         <ul className="menu__nav">
           <li className="menu__li" onClick={props.handleClickMenu}>
@@ -29,11 +28,6 @@ const Menu = (props) => {
           <li className="menu__li" onClick={props.handleClickMenu}>
             <Link to="/aboutme" className="SectionDetail-link">
               About me
-            </Link>
-          </li>
-          <li className="menu__li" onClick={props.handleClickMenu}>
-            <Link to="/resume" className="SectionDetail-link">
-              Resume
             </Link>
           </li>
           <li className="menu__li" onClick={props.handleClickMenu}>

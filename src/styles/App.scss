@@ -13,4 +13,9 @@ $color--light-grey: #717070;
 $color--dark-grey: #444;
 
 // FUENTES
-$font-main: 'Roboto', sans-serif;
+// $font-main: 'Roboto', sans-serif;
+@font-face {
+  font-family: 'Okine';
+  src: url('../fonts/Okine.ttf') format('truetype');
+}
+$font-main: 'Okine', sans-serif;
