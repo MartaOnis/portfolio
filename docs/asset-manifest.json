@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.993aa7e1.css",
-    "main.js": "./static/js/main.5d581a36.js",
+    "main.css": "./static/css/main.12ac813c.css",
+    "main.js": "./static/js/main.424d12f8.js",
     "static/media/FotoMartaColor.jpg": "./static/media/FotoMartaColor.5859559fc982775e92db.jpg",
     "static/media/anime.jpg": "./static/media/anime.6e5557fcbf7928410a47.jpg",
     "static/media/adavengers.jpg": "./static/media/adavengers.0d081b307a4e152065c5.jpg",
@@ -10,12 +10,14 @@
     "static/media/cards.jpg": "./static/media/cards.88cf1092df69a80ef17c.jpg",
     "static/media/Okine.ttf": "./static/media/Okine.fa13abfba0f98e77bb57.ttf",
     "static/media/number.jpg": "./static/media/number.5d2730ea368884e6f132.jpg",
+    "static/media/mail.png": "./static/media/mail.ed5bcc0d53156a72c139.png",
+    "static/media/linkedin.png": "./static/media/linkedin.9a720df1a1dd04b7d550.png",
     "index.html": "./index.html",
-    "main.993aa7e1.css.map": "./static/css/main.993aa7e1.css.map",
-    "main.5d581a36.js.map": "./static/js/main.5d581a36.js.map"
+    "main.12ac813c.css.map": "./static/css/main.12ac813c.css.map",
+    "main.424d12f8.js.map": "./static/js/main.424d12f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.993aa7e1.css",
-    "static/js/main.5d581a36.js"
+    "static/css/main.12ac813c.css",
+    "static/js/main.424d12f8.js"
   ]
 }
