@@ -3,7 +3,7 @@ import '../styles/Projects.scss';
 import DetailProject from './DetailProject';
 import searcher from '../images/searcher.jpg';
 import adavengers from '../images/adavengers.jpg';
-import cards from '../images/cards.jpg';
+import backend from '../images/backend.jpg';
 import anime from '../images/anime.jpg';
 import number from '../images/number.jpg';
 import friends from '../images/friends.jpg';
@@ -42,7 +42,7 @@ const Projects = (props) => {
           route="https://martaonis.github.io/adalab-partners-presentation-page/"
         />
         <DetailProject
-          img={cards}
+          img={backend}
           alt="página creación tarjetas"
           title="Awesome profile cards"
           des="Page to create profile cards + first server / "

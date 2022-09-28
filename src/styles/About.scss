@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 70px;
+
   &__title {
     margin-top: 50px;
     margin-bottom: 45px;
@@ -28,6 +29,10 @@
     font-size: 16px;
     color: $color--white;
     margin-top: 25px;
+    @media all and (min-width: 768px) {
+      width: 550px;
+      font-size: 20px;
+    }
   }
   &__titleEdu {
     margin-top: 50px;
@@ -39,6 +44,10 @@
   &__education {
     width: 280px;
     font-family: $font-main;
+    @media all and (min-width: 768px) {
+      width: 550px;
+      font-size: 20px;
+    }
   }
   &__h3 {
     text-align: left;
@@ -55,6 +64,10 @@
     color: $color--white;
     margin-top: 15px;
     margin-bottom: 20px;
+    @media all and (min-width: 768px) {
+      width: 550px;
+      font-size: 20px;
+    }
   }
 }
 .linehr {

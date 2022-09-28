@@ -14,10 +14,11 @@
   transform: translateX(100%);
   background-color: $color--dark-grey;
   z-index: 2;
-
+  @media all and (min-width: 768px) {
+    width: 50%;
+  }
   &__img {
-    margin-top: 40px;
-    width: 160px;
+    width: 180px;
     object-fit: cover;
     object-position: center;
     border-radius: 45%;
@@ -27,7 +28,7 @@
     transform: scale(1.1);
   }
   &__name {
-    padding-top: 10px;
+    padding-top: 20px;
     margin-bottom: 10px;
     color: $color--light-grey;
     font-family: $font-main;
