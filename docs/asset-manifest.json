@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.1fff5583.css",
-    "main.js": "./static/js/main.7a39896f.js",
+    "main.js": "./static/js/main.105295e0.js",
     "static/media/todolist.png": "./static/media/todolist.203c3e258f4e640987b5.png",
     "static/media/FotoMartaColor.jpg": "./static/media/FotoMartaColor.5859559fc982775e92db.jpg",
     "static/media/anime.jpg": "./static/media/anime.6e5557fcbf7928410a47.jpg",
@@ -15,10 +15,10 @@
     "static/media/linkedin.png": "./static/media/linkedin.9a720df1a1dd04b7d550.png",
     "index.html": "./index.html",
     "main.1fff5583.css.map": "./static/css/main.1fff5583.css.map",
-    "main.7a39896f.js.map": "./static/js/main.7a39896f.js.map"
+    "main.105295e0.js.map": "./static/js/main.105295e0.js.map"
   },
   "entrypoints": [
     "static/css/main.1fff5583.css",
-    "static/js/main.7a39896f.js"
+    "static/js/main.105295e0.js"
   ]
 }
