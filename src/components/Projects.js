@@ -80,7 +80,7 @@ const Projects = (props) => {
           title="Lista de tareas"
           des="ToDo List / "
           des2="React - Responsive - HTML - CSS/SASS"
-          route=""
+          route="https://martaonis.github.io/todo-list/"
         />
       </section>
       <section className="projects__github">
