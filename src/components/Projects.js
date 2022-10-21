@@ -8,6 +8,7 @@ import anime from '../images/anime.jpg';
 import number from '../images/number.jpg';
 import friends from '../images/friends.jpg';
 import github from '../images/github.png';
+import todoList from '../images/todolist.png';
 
 const Projects = (props) => {
   return (
@@ -72,6 +73,14 @@ const Projects = (props) => {
           des="Quotes from the serie F.R.I.E.N.D.S / "
           des2="React - HTML - CSS/SASS"
           route="https://martaonis.github.io/quotes-serie-FRIENDS/"
+        />
+        <DetailProject
+          img={todoList}
+          alt="ToDo List"
+          title="Lista de tareas"
+          des="ToDo List / "
+          des2="React - Responsive - HTML - CSS/SASS"
+          route=""
         />
       </section>
       <section className="projects__github">
